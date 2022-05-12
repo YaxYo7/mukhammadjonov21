@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+form{
+    max-width: 500px;
+    width: 100%;
+    margin: 100px auto;
+    background: rgb(42, 42, 42);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px rgb(41, 41, 41);
+    padding: 50px;
+}
+
+p{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    font-size: 25px;
+    background: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    margin-top: 15px;
+}
+button:hover{
+    background: red;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+}
